@@ -1,0 +1,323 @@
+/*Estilo de fuentes*/
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(assets/fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(assets/fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_SuW4Ep0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin-ext */
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(assets/fonts/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/assets/fonts/1cXxaUPXBpj2rGoU7C9WiHGF.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/*Fin estilo de fuentes*/
+body{
+    margin: 30px;
+    background-color: #e0d0d0;
+    
+}
+header{
+    background-color: #9b5f5f;
+}
+h1{
+    color: bisque;
+    text-shadow: 5px 5px 5px #814545;
+    font-family: 'Roboto';
+}
+h2{
+    color: bisque;
+    text-shadow: 5px 5px 5px #e46905;
+    font-family: 'Righteous';
+    font-size: 3em;
+}
+h5{
+    color: rgb(42, 40, 40);
+    text-shadow: 3px 3px 3px #814545;
+    font-family: 'Righteous';
+    font-size: 2em;
+    font-style: italic;
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 1em;
+}
+
+/* The navbar container */
+.conteiner-nav{
+    background-color: #cfa0a0;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.conteiner-nav .nav-item a {
+    /*float: left;*/
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.conteiner-nav .dropdown-menu{
+    background-color: #cfa0a0;
+}
+/* Items cambio de color al pasar el mouse */
+.nav-item a:hover {
+    background-color: #a87777;
+    color: black;
+}
+.navbar form a{
+    font-size: 1.5em;
+    color: black;
+}
+.boton1{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    
+    background-color: lightcoral;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.boton1:hover{
+    color: #fff;
+    background-color: #a74128;
+}
+.button:active {
+    background-color: #a74128;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.boton1 .a{
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.boton2{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.boton2:hover{
+    color: #fff;
+    
+}
+.boton2 .a{
+    color: black;
+    font-family: 'Roboto';
+}
+
+.card{
+    display: block;
+    
+    background-color: cornsilk;
+}
+.card-politica{
+    display: block;
+    background-color: cornsilk;
+}
+.card-header{    
+    background-color: burlywood;
+}
+.card-producto:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.card-producto img{
+    max-width: 400px;
+
+}
+
+.contact-item{
+    position: relative;
+    padding-left: 30px;
+    list-style: none;
+}
+
+footer{
+    justify-content: space-evenly;
+    /*margin: 30px;*/
+    border-radius: 10px;
+    background-color: #cfa0a0;
+    
+}
+.partFooter{
+    margin: 30px;
+    width: 20%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.partFooter h4{
+    color: #1d273b;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.partFooter a{
+    display: block;
+    text-decoration: underline;
+    color: #5d6678;
+}
+
+/*Estilos de registro y login*/
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.contenedor_todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+.caja_trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+    border-radius: 20px;
+}
+
+.caja_trasera div{
+    margin: 100px 40px;
+    color: #1d273b;
+    transition: all 500ms;
+      
+}
+.caja_trasera div p, .caja_trasera div button{
+    margin-top: 30px;
+}
+
+.caja_trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+    
+}
+
+.caja_trasera button{
+    padding: 10px 40px;
+    border: 2px solid lightcoral;
+    background: #d3a8a8;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: all 300ms;
+}
+.caja_trasera button:hover{
+    background: #df9f9f;
+    color: #fff;
+}
+/*formularios de registro-login*/
+.contenedor_login-registro{
+    display: flex;
+    align-items: center;
+    width: 100%;       
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+.contenedor_login-registro form{
+    width: 100%;
+    padding: 10px 10px;
+    background: #cfa0a0;
+    position: absolute;
+    border-radius: 20px;
+    text-align: center; 
+    margin-bottom: 30px;;   
+}
+.contenedor_login-registro form h2{
+    font-size: 30px;
+    text-align: center;
+    /*margin-bottom: 20px;*/
+}
+.contenedor_login-registro form input{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor_login-registro form button{
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    font-size: 14px;
+    background: lightcoral;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+.formularioLogin{
+    opacity: 1;
+    display: block;
+}
+.formularioRegistro{
+    display: none;
+}
+
+/*Trabajando en el responsive desinge*/
+@media screen and (max-width: 850px){
+    main{
+        margin-top: 50px;
+    }
+    .caja_trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .caja_trasera div{
+        margin: 0;
+        position: absolute;        
+    }
+    /*Formularios*/
+    .contenedor_login-registro{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+    .contenedor_login-registro form{
+        position: relative;
+    }
+}
